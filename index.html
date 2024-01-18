@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Athar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="left-head">Mohammad Athar</div>
+        <div class="right-head">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a onclick="myFunction()" class="dropbtn">Contact Me</a>
+            <div id="myDropdown" class="dropdown-content">
+                <h2><i>Wel<span class="black">come!</span> Fill the form to ask any question.</i></h2>
+                <form action="https://formsubmit.co/Zhcet35@gmail.com" method="post" class="contact-form">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <br>
+            
+                    <label for="profession">Profession</label>
+                    <br>
+                    <input type="text" id="profession" name="profession" placeholder="Your Profession" required>
+                    <br>
+            
+                    <label for="message">Ask anything</label>
+                    <br>
+                    <textarea id="message" name="message" placeholder="Ask anything!" required></textarea>
+                    <br>
+    
+                    <button type="submit">Submit</button>
+                </form>
+
+                <div class="mobile">
+                    <span class="black">Mobile :</span> 6306245995
+                    <br>
+                    <span class="black">E.mail &nbsp;:</span> atharkhan9695@gmail.com
+                </div>
+            </div>
+            <hr color="red">
+        </div>
+    </header>
+
+    <main-welcome id="home">
+        <div class="left-main-welcome">
+            <img src="/images/image.jpeg" alt="my picture">
+        </div>
+        <div class="right-main-welcome">
+            <h1>He<span class="white">llo</span> and wel<span class="white">come!</span></h1>
+            <p>Glad you stopped by. I'm <b><i>Mohammad<span class="white"> Athar</span></i></b>, an <b><i>aspiring
+                        Software <span class="white">Engineering</span></i></b> student<span
+                    class="writing-animate-main-welcome white"> |</span></p>
+        </div>
+        <hr color="red" id="about">
+    </main-welcome>
+
+    <main-about>
+        <div class="head">Abo<span class="white">ut</span></div>
+        <div class="main-about">
+            <div class="left-main-about">
+                A second year <strong> <span class="white">B.Tech.</span></strong> student at <b><i><span
+                            class="white">Zakir Hussain College </span>of <span class="white">Engineering</span> and
+                        <span class="white">Technology</span></i></b>, eager to apply and
+                enhance skills in <em><b><span class="white">Data Structures</span>, <span
+                            class="white">Algorithms</span>, <span class="white">Object-Oriented
+                            Programming</span>,</b></em> and <em><b><span class="white">Front-End
+                            Development</span></em></b>.
+                Seeking opportunities to contribute to innovative projects and collaborate with professionals in the
+                industry. Looking for <b><span class="white">internships</span></b> or projects to gain valuable
+                experience in software engineering.
+            </div>
+            <div class="right-main-about">
+                <video width="480" autoplay muted loop>
+                    <source src="images/coding.webm" type="video/webm">
+                    Coding video
+                </video>
+            </div>
+        </div>
+        <hr color="red" id="skills">
+    </main-about>
+
+    <main-skills>
+        <div class="head-skills">Ski<span class="white">lls</span></div>
+        <div class="main-skills">
+            <div class="left-main-skills">
+                <p class="white"><i>I pride myself on my proficiency in a range of programming languages and
+                        technologies:</i></p><br>
+                <p><b><span class="white">Front-end Development</span></b>: Crafting user-friendly interfaces with
+                    <i><span class="white">HTML</span></i>, <i><span class="white">CSS</span></i>, and
+                    <i><span class="white">JavaScript</span></i>.
+                </p><br>
+                <p><b><span class="white">Object-Oriented Programming (OOP)</span></b>: Implementing scalable and
+                    maintainable code using OOP
+                    methodologies.</p><br>
+                <p><b><span class="white">Data Structures and Algorithms </span>(DSA)</b>: Solving complex problems
+                    efficiently with a deep
+                    understanding of DSA.</p><br>
+                <p><b><span class="white">Database Management</span></b>: Managing and manipulating data using <i><span
+                            class="white">MySQL</span></i>, ensuring data integrity and
+                    security.</p><br>
+                <p><b><span class="white">Programming Languages</span></b>: Writing robust and efficient code in
+                    <i><span class="white">C</span></i>, <i><span class="white">C++</span></i>, and <i><span
+                            class="white">Java</span></i>.
+                </p><br>
+                <p><b><span class="white">Game Development</span></b>: Exploring interactive media creation with
+                    <i><span class="white">Raylib</span></i>, a simple and easy-to-use
+                    library for games and multimedia applications.
+                </p><br>
+                <p><b><span class="white">Version Control</span></b>: Maintaining codebase integrity and facilitating
+                    collaboration with <i><span class="white">Git</span></i> and
+                    <i><span class="white">GitHub</span></i>.
+                </p>
+            </div>
+            <div class="right-main-skills">
+                <video width="480" autoplay muted loop>
+                    <source src="images/skills.webm" type="video/webm">
+                    Skills video
+                </video>
+            </div>
+        </div>
+    </main-skills>
+
+    <div class="logos">
+        <img src="images/html.svg" alt="html">
+        <img src="images/css.svg" alt="css">
+        <img src="images/js.svg" alt="css">
+        <img src="images/mysql.svg" alt="mysql">
+        <img src="images/java.svg" alt="java">
+        <img src="images/python.svg" alt="python">
+        <img src="images/github.svg" alt="github">
+        <img src="images/c.svg" alt="c">
+    </div>
+    <hr color="red" id="projects">
+
+    <div class="head" id="head-projects">Proj<span class="white">ects</span></div>
+    <main-projects>
+        <div class="registration">
+            <div class="registration-info">
+                <h1>Registra<span class="white">tion GUI</span></h1>
+                Discover a robust user authentication system built on <i><span class="white">Python</span></i>, <i><span
+                        class="white">Tkinter</span></i>, and <i><span class="white">MySQL</span></i>. Our application
+                seamlessly integrates <i><span class="white">secure registration</span></i> and <i><span
+                        class="white">login functionalities</span></i> with the power of a MySQL database backend.
+                Utilizing Python's strength, Tkinter's intuitive GUI, and MySQL's data management capabilities, users
+                can effortlessly register and log in securely. Experience the synergy of these technologies, ensuring a
+                smooth and reliable authentication process. Elevate your user interaction with our feature-rich system,
+                where Python, Tkinter, and MySQL converge to provide a seamless and <i><span class="white">secure user
+                        authentication</span></i> experience.
+            </div>
+            <div class="registration-images">
+                <a href="images/login.jpg"><img src="images/login.jpg" alt="login image" width="480"></a>
+                <a href="images/signup.jpg"><img src="images/signup.jpg" alt="signup image" width="480"></a>
+            </div>
+        </div>
+        <div class="game">
+            <div class="game-info">
+                <h1>Hit th<span class="white">e ball</span></h1>
+                Immerse yourself in the exhilarating world of gaming with '<i><span class="whte">Hit The
+                        Ball</span></i>,' my <i><span class="white"></span></i>dynamic Ping Pong game crafted using
+                <i><span class="white">C++</span></i> and the <i><span class="white">Raylib library</span></i>. This
+                project showcases a thrilling collision of cutting-edge technology and classic gameplay. Dive into the
+                fast-paced action as you control the paddle and skillfully hit the ball in a bid to outmaneuver your
+                opponent. The seamless integration of C++ ensures a <i><span class="white">robust backend</span></i>,
+                while the Raylib library adds a touch of <i><span class="white">graphical finesse</span></i>, bringing
+                the game to life. 'Hit The Ball' is not just a game; it's a testament to the fusion of programming
+                prowess and <i><span class="white">game design</span></i> creativity. Step into the arena and experience
+                the excitement of Ping Pong like never before!
+            </div>
+            <div class="game-images">
+                <img src="images/raylib.jpg" alt="Hit the BAll game" width="480">
+            </div>
+        </div>
+    </main-projects>
+
+    <footer>
+        <div class="logos">
+            <a href=""><img src="images/instagram.svg" alt="instagram" width="64"></a>
+            <a href=""><img src="images/facebook.svg" alt="facebook" width="64"></a>
+            <a href=""><img src="images/linkedin.svg" alt="linkedin" width="64"></a>
+        </div>
+        <div class="footer-text">
+            &#169; copyright | January,18,2024 | Thanks for visiting
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
