@@ -273,6 +273,7 @@ footer .logos {
   .dropdown-content {
     display: none;
     position: absolute;
+    bottom: 10vw;
     left: 25vw;
     background-color: red;
     min-width: 50vw;
