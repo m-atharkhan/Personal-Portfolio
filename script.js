@@ -1,19 +1,15 @@
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
+document.addEventListener('click', function(event) {
+  var dropdown = document.getElementById('myDropdown');
+  var dropbtn = document.querySelector('.dropbtn');
 
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
+  // Check if the clicked element is outside the dropdown-content
+  if (!dropdown.contains(event.target) && event.target !== dropbtn) {
+      dropdown.style.display = 'none';
   }
+});
+
+// Function to toggle the visibility of the form
+function myFunction() {
+  var dropdown = document.getElementById('myDropdown');
+  dropdown.style.display = (dropdown.style.display === 'block') ? 'none' : 'block';
 }
